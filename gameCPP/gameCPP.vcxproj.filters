@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{96c46809-570d-43d5-94bb-79c1c06653f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{14249480-dac9-48ee-b1b3-f63727254e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateManager">
+      <UniqueIdentifier>{147d1720-e210-47b6-8191-184f4b4a4a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Map">
+      <UniqueIdentifier>{8767297d-1405-4c8f-b4fd-59bf11d67a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\GameManager\HighScore.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\OperationsManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\ResourceManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Singleton.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\WindowConnector.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\Map.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\Map1.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\Map2.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\Map3.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\Map4.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\Map5.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Map\MapManager.h">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Animation.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Box.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Buttom.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Coin.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Collider.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Door.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Enemies.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\ExitDoor.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Ground.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\LeverTurn.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\ManagerAnimation.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\MushRoom.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Player.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Spikes.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Stone.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Water.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameButton.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSAbout.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSEnd.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSHighScore.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSInput.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPause.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSSetting.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\Map.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\Map1.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\Map2.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\Map3.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\Map4.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\Map5.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Map\MapManager.cpp">
+      <Filter>Source Files\GameObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Animation.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Buttom.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Coin.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Collider.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Door.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Enemies.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\ExitDoor.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Ground.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\ManagerAnimation.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\MushRoom.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Player.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Spikes.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Stone.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameButton.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSAbout.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSEnd.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSHighScore.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSInput.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPause.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSSetting.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameCPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

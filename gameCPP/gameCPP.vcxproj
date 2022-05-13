@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Application.h" />
+    <ClInclude Include="Sources\GameConfig.h" />
+    <ClInclude Include="Sources\GameManager\HighScore.h" />
+    <ClInclude Include="Sources\GameManager\OperationsManager.h" />
+    <ClInclude Include="Sources\GameManager\ResourceManager.h" />
+    <ClInclude Include="Sources\GameManager\Singleton.h" />
+    <ClInclude Include="Sources\GameManager\WindowConnector.h" />
+    <ClInclude Include="Sources\GameObjects\Animation.h" />
+    <ClInclude Include="Sources\GameObjects\Box.h" />
+    <ClInclude Include="Sources\GameObjects\Buttom.h" />
+    <ClInclude Include="Sources\GameObjects\Coin.h" />
+    <ClInclude Include="Sources\GameObjects\Collider.h" />
+    <ClInclude Include="Sources\GameObjects\Door.h" />
+    <ClInclude Include="Sources\GameObjects\Enemies.h" />
+    <ClInclude Include="Sources\GameObjects\ExitDoor.h" />
+    <ClInclude Include="Sources\GameObjects\Ground.h" />
+    <ClInclude Include="Sources\GameObjects\LeverTurn.h" />
+    <ClInclude Include="Sources\GameObjects\ManagerAnimation.h" />
+    <ClInclude Include="Sources\GameObjects\Map\Map.h" />
+    <ClInclude Include="Sources\GameObjects\Map\Map1.h" />
+    <ClInclude Include="Sources\GameObjects\Map\Map2.h" />
+    <ClInclude Include="Sources\GameObjects\Map\Map3.h" />
+    <ClInclude Include="Sources\GameObjects\Map\Map4.h" />
+    <ClInclude Include="Sources\GameObjects\Map\Map5.h" />
+    <ClInclude Include="Sources\GameObjects\Map\MapManager.h" />
+    <ClInclude Include="Sources\GameObjects\MushRoom.h" />
+    <ClInclude Include="Sources\GameObjects\Player.h" />
+    <ClInclude Include="Sources\GameObjects\Spikes.h" />
+    <ClInclude Include="Sources\GameObjects\Stone.h" />
+    <ClInclude Include="Sources\GameObjects\Water.h" />
+    <ClInclude Include="Sources\GameStateManager\GameButton.h" />
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h" />
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h" />
+    <ClInclude Include="Sources\GameStateManager\GSAbout.h" />
+    <ClInclude Include="Sources\GameStateManager\GSEnd.h" />
+    <ClInclude Include="Sources\GameStateManager\GSHighScore.h" />
+    <ClInclude Include="Sources\GameStateManager\GSInput.h" />
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h" />
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h" />
+    <ClInclude Include="Sources\GameStateManager\GSPause.h" />
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h" />
+    <ClInclude Include="Sources\GameStateManager\GSSetting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gameCPP.cpp" />
+    <ClCompile Include="Sources\Application.cpp" />
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp" />
+    <ClCompile Include="Sources\GameObjects\Animation.cpp" />
+    <ClCompile Include="Sources\GameObjects\Buttom.cpp" />
+    <ClCompile Include="Sources\GameObjects\Coin.cpp" />
+    <ClCompile Include="Sources\GameObjects\Collider.cpp" />
+    <ClCompile Include="Sources\GameObjects\Door.cpp" />
+    <ClCompile Include="Sources\GameObjects\Enemies.cpp" />
+    <ClCompile Include="Sources\GameObjects\ExitDoor.cpp" />
+    <ClCompile Include="Sources\GameObjects\Ground.cpp" />
+    <ClCompile Include="Sources\GameObjects\ManagerAnimation.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\Map.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\Map1.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\Map2.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\Map3.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\Map4.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\Map5.cpp" />
+    <ClCompile Include="Sources\GameObjects\Map\MapManager.cpp" />
+    <ClCompile Include="Sources\GameObjects\MushRoom.cpp" />
+    <ClCompile Include="Sources\GameObjects\Player.cpp" />
+    <ClCompile Include="Sources\GameObjects\Spikes.cpp" />
+    <ClCompile Include="Sources\GameObjects\Stone.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GameButton.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSAbout.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSEnd.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSHighScore.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSInput.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSPause.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp" />
+    <ClCompile Include="Sources\GameStateManager\GSSetting.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5600b732-33ac-499c-9644-255b58b188ee}</ProjectGuid>
+    <RootNamespace>gameCPP</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

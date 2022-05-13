@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5600b732-33ac-499c-9644-255b58b188ee": {
+      "ProjectGuid": "5600b732-33ac-499c-9644-255b58b188ee",
+      "DisplayName": "gameCPP",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
